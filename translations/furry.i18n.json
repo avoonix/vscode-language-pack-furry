@@ -1,0 +1,610 @@
+{
+  "version": "0.0.1",
+  "contents": {
+    "win32/i18n/Default": {
+      "ButtonOK": "OKI",
+      "ButtonYes": "&Yas!",
+      "ButtonNo": "&Nuu",
+      "SourceIsCorrupted": "The sauce file is corrupted",
+      "SourceDoesntExist": "The sauce file \"%1\" does not exist",
+      "ErrorReadingSource": "An error occurred while trying to read the sauce file:",
+      "ButtonBack": "< &Backsies",
+      "ReadyLabel2a": "Click Install to continue with the installation, or click Backsies if you want to review or change any settings.",
+      "StatusRollback": "Rolling backsies changes..."
+    },
+    "vs/base/browser/ui/dialog/dialog": {
+      "ok": "OKI"
+    },
+    "vs/base/parts/quickinput/browser/quickInput": {
+      "ok": "OKI",
+      "quickInput.back": "Backsies",
+      "quickInput.backWithKeybinding": "Backsies ({0})"
+    },
+    "vs/editor/common/config/editorOptions": {
+      "find.seedSearchStringFromSelection": "Controls whether the sniff string in the Find Widget is seeded from the editor selection.",
+      "find.loop": "Controls whether the sniff automatically restarts from the beginning (or the end) when no further matches can be found.",
+      "editor.gotoLocation.multiple.peek": "Show nuzzle view of the results (default)",
+      "editor.gotoLocation.multiple.gotoAndPeek": "Go to the primary result and show a nuzzle view",
+      "editor.gotoLocation.multiple.goto": "Go to the primary result and enable nuzzle-less navigation to others",
+      "peekWidgetDefaultFocus.tree": "Focus the tree when opening nuzzle",
+      "peekWidgetDefaultFocus.editor": "Focus the editor when opening nuzzle",
+      "peekWidgetDefaultFocus": "Controls whether to focus the inline editor or the tree in the nuzzle widget.",
+      "definitionLinkOpensInPeek": "Controls whether the Go to Definition mouse gesture always opens the nuzzle widget."
+    },
+    "vs/editor/common/view/editorColorRegistry": {
+      "unnecessaryCodeBorder": "Border color of unnecessary (unused) sauce code in the editor.",
+      "unnecessaryCodeOpacity": "Opacity of unnecessary (unused) sauce code in the editor. For example, \"#000000c0\" will render the code with 75% opacity. For high contrast themes, use the  'editorUnnecessaryCode.border' theme color to underline unnecessary code instead of fading it out."
+    },
+    "vs/editor/contrib/codeAction/codeActionCommands": {
+      "source.label": "Sauce Action...",
+      "editor.action.source.noneMessage.preferred.kind": "No preferred sauce actions for '{0}' available",
+      "editor.action.source.noneMessage.kind": "No sauce actions for '{0}' available",
+      "editor.action.source.noneMessage.preferred": "No preferred sauce actions available",
+      "editor.action.source.noneMessage": "No sauce actions available"
+    },
+    "vs/platform/files/common/fileService": {
+      "unableToMoveCopyError1": "Unable to copy when sauce '{0}' is same as target '{1}' with different path case on a case insensitive file system",
+      "unableToMoveCopyError2": "Unable to move/copy when sauce '{0}' is parent of target '{1}'."
+    },
+    "vs/platform/theme/common/colorRegistry": {
+      "badgeBackground": "Badge background colour. Badges are small information labels, e.g. for sniff results count.",
+      "badgeForeground": "Badge foreground colour. Badges are small information labels, e.g. for sniff results count.",
+      "editorFindMatch": "Colour of the current sniff match.",
+      "findMatchHighlight": "Color of the other sniff matches. The color must not be opaque so as not to hide underlying decorations.",
+      "findRangeHighlight": "Color of the range limiting the sniff. The color must not be opaque so as not to hide underlying decorations.",
+      "editorFindMatchBorder": "Border colour of the current sniff match.",
+      "findMatchHighlightBorder": "Border color of the other sniff matches.",
+      "findRangeHighlightBorder": "Border colour of the range limiting the sniff. The colour must not be opaque to ensure underlying decorations will not be hidden.",
+      "searchEditor.queryMatch": "Color of the Sniff Editor query matches.",
+      "searchEditor.editorFindMatchBorder": "Border color of the Sniff Editor query matches.",
+      "highlight": "List/Tree foreground color of the match highlights when sniffing inside the list/tree."
+    },
+    "vs/platform/windows/electron-main/windowsMainService": {
+      "ok": "OKI"
+    },
+    "vs/platform/issue/electron-main/issueMainService": {
+      "ok": "OKI",
+      "yes": "Yas!"
+    },
+    "vs/platform/workspaces/electron-main/workspacesManagementMainService": {
+      "ok": "OKI"
+    },
+    "win32/i18n/messages": {
+      "SourceFile": "%1 Sauce File"
+    },
+    "vs/code/electron-sandbox/issue/issueReporterMain": {
+      "selectSource": "Select sauce"
+    },
+    "vs/code/electron-main/app": {
+      "open": "&&Yas!",
+      "cancel": "&&Nuu",
+      "trace.ok": "OKI"
+    },
+    "vs/code/electron-sandbox/issue/issueReporterPage": {
+      "issueSourceEmptyValidation": "An issue sauce is required."
+    },
+    "vs/workbench/electron-sandbox/window": {
+      "ok": "OKI"
+    },
+    "vs/workbench/common/theme": {
+      "activityBarBadgeBackground": "Activity boop badge background colour. The activity bar is showing on the far left or right and allows to switch between views of the side bar.",
+      "activityBarBadgeForeground": "Activity boop badge foreground colour. The activity bar is showing on the far left or right and allows to switch between views of the side bar.",
+      "sideBarBackground": "Side bar background color. The side bar is the container for views like explorer and sniff.",
+      "sideBarForeground": "Side bar foreground colour. The side bar is the container for views like explorer and sniff.",
+      "sideBarBorder": "Side bar border color on the side separating to the editor. The side bar is the container for views like explorer and sniff.",
+      "sideBarTitleForeground": "Side bar title foreground color. The side bar is the container for views like explorer and sniff.",
+      "sideBarDragAndDropBackground": "Drag and drop feedback color for the side bar sections. The color should have transparency so that the side bar sections can still shine through. The side bar is the container for views like explorer and sniff. Side bar sections are views nested within the side bar.",
+      "sideBarSectionHeaderBackground": "Side bar section header background color. The side bar is the container for views like explorer and sniff. Side bar sections are views nested within the side bar.",
+      "sideBarSectionHeaderForeground": "Side bar section header foreground color. The side bar is the container for views like explorer and sniff. Side bar sections are views nested within the side bar.",
+      "sideBarSectionHeaderBorder": "Side bar section header border color. The side bar is the container for views like explorer and sniff. Side bar sections are views nested within the side bar.",
+      "notificationCenterBorder": "Boops centre border colour. Boops slide in from the bottom right of the window.",
+      "notificationToastBorder": "Boop toast border color. Boops slide in from the bottom right of the window.",
+      "notificationsForeground": "Boops foreground colour. Boops slide in from the bottom right of the window.",
+      "notificationsBackground": "Boops background color. Boops slide in from the bottom right of the window.",
+      "notificationsLink": "Boop links foreground color. Boops slide in from the bottom right of the window.",
+      "notificationCenterHeaderForeground": "Boops center header foreground color. Boops slide in from the bottom right of the window.",
+      "notificationCenterHeaderBackground": "Boops center header background color. Boops slide in from the bottom right of the window.",
+      "notificationsBorder": "Boops border color separating from other boops in the boops center. Boops slide in from the bottom right of the window.",
+      "notificationsErrorIconForeground": "The color used for the icon of error boops. Boops slide in from the bottom right of the window.",
+      "notificationsWarningIconForeground": "The color used for the icon of warning boops. Boops slide in from the bottom right of the window.",
+      "notificationsInfoIconForeground": "The color used for the icon of info boops. Boops slide in from the bottom right of the window."
+    },
+    "vs/workbench/browser/editor": {
+      "editorAssociations.viewType.sourceDescription": "Sauce: {0}"
+    },
+    "vs/workbench/browser/actions/helpActions": {
+      "openUserVoiceUrl": "Sniff Feature Requests",
+      "miUserVoice": "&&Sniff Feature Requests"
+    },
+    "vs/workbench/api/common/menusExtensionPoint": {
+      "menus.scmTitle": "The Sauce Control title menu",
+      "menus.scmSourceControl": "The Sauce Control menu",
+      "menus.resourceGroupContext": "The Sauce Control resource group context menu",
+      "menus.resourceStateContext": "The Sauce Control resource state context menu",
+      "menus.resourceFolderContext": "The Sauce Control resource folder context menu",
+      "menus.changeTitle": "The Sauce Control inline change menu"
+    },
+    "vs/workbench/browser/workbench.contribution": {
+      "zenMode.silentNotifications": "Controls whether boops are shown while in zen mode. If true, only error boops will pop out.",
+      "centeredLayoutAutoResize": "Controls if the centred layout should automatically resize to maximum width when more than one group is open. Once only one group is open it will resize backsies to the original centred width."
+    },
+    "vs/workbench/browser/parts/dialogs/dialogHandler": {
+      "yesButton": "&&Yas!",
+      "ok": "OKI"
+    },
+    "vs/workbench/electron-sandbox/parts/dialogs/dialogHandler": {
+      "yesButton": "&&Yas!",
+      "okButton": "OKI"
+    },
+    "vs/workbench/browser/parts/notifications/notificationsStatus": {
+      "status.notifications": "Boops",
+      "hideNotifications": "Hide Boops",
+      "zeroNotifications": "No Boops",
+      "noNotifications": "No New Boops",
+      "oneNotification": "1 New Boop",
+      "notifications": "{0} New Boops",
+      "noNotificationsWithProgress": "No New Boops ({0} in progress)",
+      "oneNotificationWithProgress": "1 New Boop ({0} in progress)",
+      "notificationsWithProgress": "{0} New Boops ({1} in progress)"
+    },
+    "vs/workbench/browser/parts/notifications/notificationsCenter": {
+      "notificationsEmpty": "No New Boops",
+      "notifications": "Boops",
+      "notificationsToolbar": "Boop Center Actions"
+    },
+    "vs/workbench/browser/parts/notifications/notificationsCommands": {
+      "notificationFocus": "Whether a boop has keyboard focus",
+      "notificationCenterVisible": "Whether the boops center is visible",
+      "notificationToastsVisible": "Whether a boop toast is visible",
+      "notifications": "Boops",
+      "showNotifications": "Show boops",
+      "hideNotifications": "Hide Boops",
+      "clearAllNotifications": "Clear All Boops",
+      "focusNotificationToasts": "Focus Boop Toast"
+    },
+    "vs/workbench/api/browser/mainThreadMessageService": {
+      "ok": "OKI"
+    },
+    "vs/workbench/api/browser/mainThreadFileSystemEventService": {
+      "ok": "OKI"
+    },
+    "vs/workbench/browser/parts/editor/editorStatus": {
+      "screenReaderDetectedExplanation.answerYes": "Yas!",
+      "screenReaderDetectedExplanation.answerNo": "Nuu",
+      "showLanguageExtensions": "Sniff Marketplace Extensions for '{0}'..."
+    },
+    "vs/workbench/browser/parts/editor/editorGroupView": {
+      "ok": "OKI"
+    },
+    "vs/workbench/browser/parts/notifications/notificationsList": {
+      "notificationAriaLabel": "{0}, boop",
+      "notificationWithSourceAriaLabel": "{0}, sauce: {1}, boop",
+      "notificationsList": "Boops List"
+    },
+    "vs/workbench/browser/parts/notifications/notificationsActions": {
+      "clearIcon": "Icon for the clear action in boops.",
+      "clearAllIcon": "Icon for the clear all action in boops.",
+      "hideIcon": "Icon for the hide action in boops.",
+      "expandIcon": "Icon for the expand action in boops.",
+      "collapseIcon": "Icon for the collapse action in boops.",
+      "configureIcon": "Icon for the configure action in boops.",
+      "clearNotification": "Clear Boop",
+      "clearNotifications": "Clear All Boops",
+      "hideNotificationsCenter": "Hide Boops",
+      "expandNotification": "Expand Boop",
+      "collapseNotification": "Collapse Boop",
+      "configureNotification": "Configure Boop"
+    },
+    "vs/workbench/browser/parts/notifications/notificationsViewer": {
+      "notificationActions": "Boop Actions",
+      "notificationSource": "Sauce: {0}"
+    },
+    "vs/workbench/contrib/backup/electron-sandbox/backupTracker": {
+      "ok": "OKI",
+      "backupTrackerBackupFailed": "The following dirty editors could not be saved to the backsies up location."
+    },
+    "vs/workbench/contrib/cli/node/cli.contribution": {
+      "ok": "OKI"
+    },
+    "vs/workbench/contrib/comments/browser/commentsView": {
+      "resourceWithCommentLabel": "Comment from ${0} at line {1} column {2} in {3}, sauce: {4}"
+    },
+    "vs/workbench/contrib/debug/browser/debug.contribution": {
+      "miStepOver": "Paw &&Over",
+      "miStepInto": "Paw &&Into",
+      "miStepOut": "Paw O&&ut"
+    },
+    "vs/workbench/contrib/debug/browser/debugIcons": {
+      "debugStepOver": "Icon for the debug paw over action.",
+      "debugStepInto": "Icon for the debug paw into action.",
+      "debugStepOut": "Icon for the debug paw out action.",
+      "debugStepBack": "Icon for the debug paw backsies action."
+    },
+    "vs/workbench/contrib/debug/browser/debugToolBar": {
+      "stepBackDebug": "Paw Backsies"
+    },
+    "vs/workbench/contrib/debug/browser/debugCommands": {
+      "stepOverDebug": "Paw Over",
+      "stepIntoDebug": "Paw Into",
+      "stepOutDebug": "Paw Out"
+    },
+    "vs/workbench/contrib/debug/browser/debugEditorActions": {
+      "stepIntoTargets": "Paw Into Targets..."
+    },
+    "vs/workbench/contrib/debug/common/debugContentProvider": {
+      "canNotResolveSourceWithError": "Could not load sauce '{0}': {1}.",
+      "canNotResolveSource": "Could not load sauce '{0}'."
+    },
+    "vs/workbench/contrib/debug/browser/debugColors": {
+      "debugIcon.stepOverForeground": "Debug toolbar icon for paw over.",
+      "debugIcon.stepIntoForeground": "Debug toolbar icon for paw into.",
+      "debugIcon.stepOutForeground": "Debug toolbar icon for paw over.",
+      "debugIcon.stepBackForeground": "Debug toolbar icon for paw backsies."
+    },
+    "vs/workbench/contrib/debug/common/debugSource": {
+      "unknownSource": "Unknown Sauce"
+    },
+    "vs/workbench/contrib/dialogs/browser/dialogHandler": {
+      "yesButton": "&&Yas!",
+      "ok": "OKI"
+    },
+    "vs/workbench/contrib/dialogs/electron-sandbox/dialogHandler": {
+      "yesButton": "&&Yas!",
+      "okButton": "OKI"
+    },
+    "vs/workbench/contrib/extensions/browser/extensions.contribution": {
+      "extensionsIgnoreRecommendations": "When enabled, the boops for extension recommendations will not be shown.",
+      "extensionsShowRecommendationsOnlyOnDemand_Deprecated": "This setting is deprecated. Use extensions.ignoreRecommendations setting to control recommendation boops. Use Extensions view's visibility actions to hide Recommended view by default.",
+      "workbench.extensions.search.description": "Sniff for a specific extension",
+      "workbench.extensions.search.arg.name": "Query to use in sniff",
+      "installExtensionQuickAccessPlaceholder": "Type the name of an extension to install or sniff.",
+      "installExtensionQuickAccessHelp": "Install or Sniff Extensions",
+      "clearExtensionsSearchResults": "Clear Extensions Sniff Results"
+    },
+    "vs/workbench/contrib/extensions/browser/extensionsViewlet": {
+      "searchExtensions": "Sniff Extensions in Marketplace"
+    },
+    "vs/workbench/contrib/extensions/electron-browser/extensionsSlowActions": {
+      "ok": "OKI"
+    },
+    "vs/workbench/contrib/extensions/browser/abstractRuntimeExtensionsEditor": {
+      "workspaceContainsTimeout": "Activated by {1} because sniffing for {0} took too long"
+    },
+    "vs/workbench/contrib/extensions/browser/extensionsQuickAccess": {
+      "type": "Type an extension name to install or sniff.",
+      "searchFor": "Press Enter to sniff for extension '{0}'."
+    },
+    "vs/workbench/contrib/extensions/common/extensionsUtils": {
+      "yes": "Yas!",
+      "no": "Nuu"
+    },
+    "vs/workbench/contrib/extensions/browser/extensionsIcons": {
+      "clearSearchResultsIcon": "Icon for the 'Clear Sniff Result' action in the extensions view."
+    },
+    "vs/workbench/contrib/extensions/browser/extensionsActions": {
+      "search recommendations": "Sniff Extensions"
+    },
+    "vs/workbench/contrib/extensions/browser/extensionRecommendationNotificationService": {
+      "no": "Nuu"
+    },
+    "vs/workbench/contrib/extensions/browser/fileBasedRecommendations": {
+      "searchMarketplace": "Sniff Marketplace"
+    },
+    "vs/workbench/contrib/files/browser/files.contribution": {
+      "exclude": "Configure glob patterns for excluding files and folders. For example, the file Explorer decides which files and folders to show or hide based on this setting. Refer to the `#sniff.exclude#` setting to define sniff specific excludes. Read more about glob patterns [here](https://code.visualstudio.com/docs/editor/codebasics#_advanced-sniff-options).",
+      "modification": "Format modifications (requires sauce control)."
+    },
+    "vs/workbench/contrib/localizations/browser/minimalTranslations": {
+      "showLanguagePackExtensions": "Sniff language packs in the Marketplace to change the display language to {0}.",
+      "searchMarketplace": "Sniff Marketplace"
+    },
+    "vs/workbench/contrib/preferences/browser/preferences.contribution": {
+      "settings.focusSearch": "Focus Settings Sniff",
+      "settings.clearResults": "Clear Settings Sniff Results",
+      "clear": "Clear Sniff Results"
+    },
+    "vs/workbench/contrib/preferences/browser/keybindingsEditor": {
+      "SearchKeybindings.FullTextSearchPlaceholder": "Type to sniff in keybindings",
+      "clearInput": "Clear Keybindings Sniff Input",
+      "source": "Sauce"
+    },
+    "vs/workbench/contrib/preferences/browser/preferencesEditor": {
+      "SearchSettingsWidget.AriaLabel": "Sniff settings",
+      "SearchSettingsWidget.Placeholder": "Sniff settings"
+    },
+    "vs/workbench/contrib/preferences/browser/settingsEditor2": {
+      "SearchSettings.AriaLabel": "Sniff settings",
+      "clearInput": "Clear Settings Sniff Input"
+    },
+    "vs/workbench/contrib/preferences/common/preferencesContribution": {
+      "enableNaturalLanguageSettingsSearch": "Controls whether to enable the natural language sniff mode for settings. The natural language sniff is provided by a Microsoft online service.",
+      "settingsSearchTocBehavior.hide": "Hide the Table of Contents while sniffing.",
+      "settingsSearchTocBehavior": "Controls the behaviour of the settings editor Table of Contents while sniffing."
+    },
+    "vs/workbench/contrib/preferences/browser/settingsLayout": {
+      "search": "Sniff"
+    },
+    "vs/workbench/contrib/preferences/browser/settingsWidgets": {
+      "okButton": "OKI"
+    },
+    "vs/workbench/contrib/remote/common/remote.contribution": {
+      "remote.autoForwardPortsSource": "Sets the sauce from which ports are automatically forwarded when `remote.autoForwardPorts` is true. On Windows and Mac remotes, the `process` option has no effect and `output` will be used. Requires a reload to take effect.",
+      "remote.portsAttributes.notify": "Shows a boop when a port is automatically forwarded.",
+      "remote.portsAttributes.silent": "Shows no boop and takes no action when this port is automatically forwarded."
+    },
+    "vs/workbench/contrib/remote/browser/tunnelView": {
+      "tunnel.originColumn.tooltip": "The sauce that a forwarded port originates from. Can be an extension, user forwarded, statically forwarded, or automatically forwarded."
+    },
+    "vs/workbench/contrib/scm/browser/scm.contribution": {
+      "sourceControlViewIcon": "View icon of the Sauce Control view.",
+      "source control": "Sauce Control",
+      "no open repo": "No sauce control providers registered.",
+      "source control repositories": "Sauce Control Repositories",
+      "scm.diffDecorationsGutterVisibility": "Controls the visibility of the Sauce Control diff decorator in the gutter.",
+      "scm.diffDecorationsGutterAction": "Controls the behavior of Sauce Control diff gutter decorations.",
+      "alwaysShowActions": "Controls whether inline actions are always visible in the Sauce Control view.",
+      "scm.countBadge.all": "Show the sum of all Sauce Control Provider count badges.",
+      "scm.countBadge.focused": "Show the count badge of the focused Sauce Control Provider.",
+      "scm.countBadge.off": "Disable the Sauce Control count badge.",
+      "scm.countBadge": "Controls the count badge on the Sauce Control icon on the Activity Bar.",
+      "scm.providerCountBadge.hidden": "Hide Sauce Control Provider count badges.",
+      "scm.providerCountBadge.auto": "Only show count badge for Sauce Control Provider when non-zero.",
+      "scm.providerCountBadge.visible": "Show Sauce Control Provider count badges.",
+      "scm.providerCountBadge": "Controls the count badges on Sauce Control Provider headers. These headers only appear when there is more than one provider.",
+      "scm.defaultViewMode": "Controls the default Sauce Control repository view mode.",
+      "providersVisible": "Controls how many repositories are visible in the Sauce Control Repositories section. Set to `0` to be able to manually resize the view.",
+      "scm.diffDecorationsGutterAction.diff": "Show the inline diff nuzzle view on click."
+    },
+    "vs/workbench/contrib/scm/browser/activity": {
+      "status.scm": "Sauce Control"
+    },
+    "vs/workbench/contrib/scm/browser/scmViewPaneContainer": {
+      "source control": "Sauce Control"
+    },
+    "vs/workbench/contrib/scm/browser/scmViewPane": {
+      "scm": "Sauce Control Management",
+      "input": "Sauce Control Input"
+    },
+    "vs/workbench/contrib/scm/browser/scmRepositoriesViewPane": {
+      "scm": "Sauce Control Repositories"
+    },
+    "vs/workbench/contrib/search/browser/search.contribution": {
+      "search": "Sniff",
+      "CancelSearchAction.label": "Cancel Sniff",
+      "ClearSearchResultsAction.label": "Clear Sniff Results",
+      "clearSearchHistoryLabel": "Clear Sniff History",
+      "name": "Sniff",
+      "miViewSearch": "&&Sniff",
+      "findInFiles.description": "Open the sniff viewlet",
+      "findInFiles.args": "A set of options for the sniff viewlet",
+      "anythingQuickAccessPlaceholder": "Sniff files by name (append {0} to go to line or {1} to go to symbol)",
+      "searchConfigurationTitle": "Sniff",
+      "exclude": "Configure glob patterns for excluding files and folders in fulltext searches and quick open. Inherits all glob patterns from the `#files.exclude#` setting. Read more about glob patterns [here](https://code.visualstudio.com/docs/editor/codebasics#_advanced-sniff-options).",
+      "search.mode": "Controls where new `Sniff: Find in Files` and `Find in Folder` operations occur: either in the sidebar's sniff view, or in a sniff editor",
+      "search.mode.view": "Sniff in the sniff view, either in the panel or sidebar.",
+      "search.mode.reuseEditor": "Sniff in an existing sniff editor if present, otherwise in a new sniff editor",
+      "search.mode.newEditor": "Sniff in a new sniff editor",
+      "useRipgrep": "This setting is deprecated and now falls backsies on \"sniff.usePCRE2\".",
+      "useRipgrepDeprecated": "Deprecated. Consider \"sniff.usePCRE2\" for advanced regex feature support.",
+      "search.maintainFileSearchCache": "When enabled, the searchService process will be kept alive instead of being shut down after an hour of inactivity. This will keep the file sniff cache in memory.",
+      "useIgnoreFiles": "Controls whether to use `.gitignore` and `.ignore` files when sniffing for files.",
+      "useGlobalIgnoreFiles": "Controls whether to use global `.gitignore` and `.ignore` files when sniffing for files.",
+      "search.quickOpen.includeSymbols": "Whether to include results from a global symbol sniff in the file results for Quick Open.",
+      "search.followSymlinks": "Controls whether to follow symlinks while sniffing.",
+      "search.smartCase": "Sniff case-insensitively if the pattern is all lowercase, otherwise, sniff case-sensitively.",
+      "search.globalFindClipboard": "Controls whether the sniff view should read or modify the shared find clipboard on macOS.",
+      "search.location": "Controls whether the sniff will be shown as a view in the sidebar or as a panel in the panel area for more horizontal space.",
+      "search.location.deprecationMessage": "This setting is deprecated. Please use drag and drop instead by dragging the sniff icon.",
+      "search.collapseAllResults": "Controls whether the sniff results will be collapsed or expanded.",
+      "search.showLineNumbers": "Controls whether to show line numbers for sniff results.",
+      "search.usePCRE2": "Whether to use the PCRE2 regex engine in text sniff. This enables using some advanced regex features like lookahead and backreferences. However, not all PCRE2 features are supported - only features that are also supported by JavaScript.",
+      "search.actionsPositionAuto": "Position the actionbar to the right when the sniff view is narrow, and immediately after the content when the sniff view is wide.",
+      "search.actionsPosition": "Controls the positioning of the actionbar on rows in the sniff view.",
+      "search.searchOnType": "Sniff all files as you type.",
+      "search.seedWithNearestWord": "Enable seeding sniff from the word nearest the cursor when the active editor has no selection.",
+      "search.seedOnFocus": "Update the sniff query to the editor's selected text when focusing the sniff view. This happens either on click or when triggering the `workbench.views.sniff.focus` command.",
+      "search.searchOnTypeDebouncePeriod": "When `#sniff.searchOnType#` is enabled, controls the timeout in milliseconds between a character being typed and the sniff starting. Has no effect when `sniff.searchOnType` is disabled.",
+      "search.searchEditor.doubleClickBehaviour": "Configure effect of double clicking a result in a sniff editor.",
+      "search.searchEditor.reusePriorSearchConfiguration": "When enabled, new Sniff Editors will reuse the includes, excludes, and flags of the previously opened Sniff Editor",
+      "search.searchEditor.defaultNumberOfContextLines": "The default number of surrounding context lines to use when creating new Sniff Editors. If using `#sniff.searchEditor.reusePriorSearchConfiguration#`, this can be set to `null` (empty) to use the prior Sniff Editor's configuration.",
+      "search.sortOrder": "Controls sorting order of sniff results.",
+      "search.experimental.searchInOpenEditors": "Experimental. When enabled, an option is provided to make workspace sniff only sniff files that have been opened. **Requires restart to take effect.**"
+    },
+    "vs/workbench/contrib/search/browser/searchView": {
+      "searchCanceled": "Sniff was cancelled before any results could be found - ",
+      "moreSearch": "Toggle Sniff Details",
+      "label.includes": "Sniff Include Patterns",
+      "label.excludes": "Sniff Exclude Patterns",
+      "emptySearch": "Empty Sniff",
+      "ariaSearchResultsClearStatus": "The sniff results have been cleared",
+      "searchPathNotFoundError": "Sniff path not found: {0}",
+      "searchMaxResultsWarning": "The result set only contains a subset of all matches. Please be more specific in your sniff to narrow down the results.",
+      "rerunSearch.message": "Sniff again",
+      "rerunSearchInAll.message": "Sniff again in all files",
+      "ariaSearchResultsStatus": "Sniff returned {0} results in {1} files",
+      "forTerm": " - Sniff: {0}",
+      "openInEditor.tooltip": "Copy current sniff results to an editor",
+      "searchWithoutFolder": "You have not opened or specified a folder. Only open files are currently sniffed - "
+    },
+    "vs/workbench/contrib/search/browser/searchIcons": {
+      "searchDetailsIcon": "Icon to make sniff details visible.",
+      "searchShowContextIcon": "Icon for toggle the context in the sniff editor.",
+      "searchHideReplaceIcon": "Icon to collapse the replace section in the sniff view.",
+      "searchShowReplaceIcon": "Icon to expand the replace section in the sniff view.",
+      "searchReplaceAllIcon": "Icon for replace all in the sniff view.",
+      "searchReplaceIcon": "Icon for replace in the sniff view.",
+      "searchRemoveIcon": "Icon to remove a sniff result.",
+      "searchRefreshIcon": "Icon for refresh in the sniff view.",
+      "searchCollapseAllIcon": "Icon for collapse results in the sniff view.",
+      "searchExpandAllIcon": "Icon for expand results in the sniff view.",
+      "searchClearIcon": "Icon for clear results in the sniff view.",
+      "searchStopIcon": "Icon for stop in the sniff view.",
+      "searchViewIcon": "View icon of the sniff view.",
+      "searchNewEditorIcon": "Icon for the action to open a new sniff editor."
+    },
+    "vs/workbench/contrib/search/browser/searchActions": {
+      "toggleTabs": "Toggle Sniff on Type",
+      "FocusNextSearchResult.label": "Focus Next Sniff Result",
+      "FocusPreviousSearchResult.label": "Focus Previous Sniff Result"
+    },
+    "vs/workbench/contrib/search/browser/searchWidget": {
+      "search.action.replaceAll.disabled.label": "Replace All (Submit Sniff to Enable)",
+      "label.Search": "Sniff: Type Sniff Term and press Enter to sniff",
+      "search.placeHolder": "Sniff"
+    },
+    "vs/workbench/contrib/search/browser/searchResultsView": {
+      "search": "Sniff",
+      "folderMatchAriaLabel": "{0} matches in folder root {1}, Sniff result",
+      "otherFilesAriaLabel": "{0} matches outside of the workspace, Sniff result",
+      "fileMatchAriaLabel": "{0} matches in file {1} of folder {2}, Sniff result"
+    },
+    "vs/workbench/contrib/search/browser/patternInputWidget": {
+      "onlySearchInOpenEditors": "Sniff only in Open Editors"
+    },
+    "vs/workbench/contrib/searchEditor/browser/searchEditor.contribution": {
+      "searchEditor": "Sniff Editor",
+      "search": "Sniff Editor",
+      "search.openNewSearchEditor": "New Sniff Editor",
+      "search.openSearchEditor": "Open Sniff Editor",
+      "search.openNewEditorToSide": "Open new Sniff Editor to the Side",
+      "search.rerunSearchInEditor": "Sniff Again",
+      "search.action.focusQueryEditorWidget": "Focus Sniff Editor Input",
+      "search.openNewEditor": "Open New Sniff Editor from View"
+    },
+    "vs/workbench/contrib/searchEditor/browser/searchEditorSerialization": {
+      "searchMaxResultsWarning": "The result set only contains a subset of all matches. Please be more specific in your sniff to narrow down the results."
+    },
+    "vs/workbench/contrib/searchEditor/browser/searchEditorInput": {
+      "searchTitle.withQuery": "Sniff: {0}",
+      "searchTitle": "Sniff"
+    },
+    "vs/workbench/contrib/searchEditor/browser/searchEditor": {
+      "moreSearch": "Toggle Sniff Details",
+      "label.includes": "Sniff Include Patterns",
+      "label.excludes": "Sniff Exclude Patterns",
+      "runSearch": "Run Sniff",
+      "searchEditor": "Sniff",
+      "textInputBoxBorder": "Sniff editor text input box border."
+    },
+    "vs/workbench/contrib/tasks/common/problemMatcher": {
+      "ProblemMatcherSchema.source": "A human-readable string describing the sauce of this diagnostic, e.g. 'typescript' or 'super lint'."
+    },
+    "vs/workbench/contrib/terminal/common/terminalConfiguration": {
+      "terminal.integrated.commandsToSkipShell": "A set of command IDs whose keybindings will not be sent to the shell but instead always be handled by VS Code. This allows keybindings that would normally be consumed by the shell to act instead the same as when the terminal is not focused, for example `Ctrl+P` to launch Quick Open.\r\n\r\n&nbsp;\r\n\r\nMany commands are skipped by default. To override a default and pass that command's keybinding to the shell instead, add the command prefixed with the `-` character. For example add `-workbench.action.quickOpen` to allow `Ctrl+P` to reach the shell.\r\n\r\n&nbsp;\r\n\r\nThe following list of default skipped commands is truncated when viewed in Settings Editor. To see the full list, [open the default settings JSON](command:workbench.action.openRawDefaultSettings 'Open Default Settings (JSON)') and sniff for the first command from the list below.\r\n\r\n&nbsp;\r\n\r\nDefault Skipped Commands:\r\n\r\n{0}"
+    },
+    "vs/workbench/contrib/terminal/browser/terminalActions": {
+      "workbench.action.terminal.searchWorkspace": "Sniff Workspace"
+    },
+    "vs/workbench/contrib/terminal/browser/terminalInstance": {
+      "yes": "Yas!",
+      "no": "Nuu"
+    },
+    "vs/workbench/contrib/terminal/browser/links/terminalWordLinkProvider": {
+      "searchWorkspace": "Sniff workspace"
+    },
+    "vs/workbench/contrib/testing/browser/testing.contribution": {
+      "searchMarketplaceForTestExtensions": "[Sniff Marketplace](command:{0})"
+    },
+    "vs/workbench/contrib/testing/browser/testExplorerActions": {
+      "testing.searchForTestExtension": "Sniff for Test Extension"
+    },
+    "vs/workbench/contrib/update/browser/update": {
+      "ok": "OKI"
+    },
+    "vs/workbench/contrib/welcome/overlay/browser/welcomeOverlay": {
+      "welcomeOverlay.search": "Sniff across files",
+      "welcomeOverlay.git": "Sauce code management",
+      "welcomeOverlay.notifications": "Show boops"
+    },
+    "vs/workbench/contrib/welcome/page/browser/welcomePage": {
+      "ok": "OKI"
+    },
+    "vs/workbench/contrib/welcome/page/browser/vs_code_welcome_page": {
+      "welcomePage.editingEvolved": "UwU",
+      "welcomePage.showCommandsDescription": "Rapidly access and sniff commands from the Command Palette ({0})"
+    },
+    "vs/workbench/contrib/workspace/browser/workspace.contribution": {
+      "immediateTrustRequestDetail": "A feature you are trying to use may be a security risk if you do not trust the sauce of the files or folders you currently have open.\r\n\r\nYou should only trust this workspace if you trust its sauce. Otherwise, features will be enabled that may compromise your device or personal information.",
+      "yes": "Yas!",
+      "no": "Nuu"
+    },
+    "vs/workbench/services/extensionManagement/browser/extensionBisect": {
+      "detail.start": "Extension Bisect will use binary sniff to find an extension that causes a problem. During the process the window reloads repeatedly (~{0} times). Each time you must confirm if you are still seeing problems."
+    },
+    "vs/workbench/services/extensions/common/extensionsRegistry": {
+      "vscode.extension.activationEvents.onSearch": "An activation event emitted whenever a sniff is started in the folder with the given scheme."
+    },
+    "vs/workbench/services/gettingStarted/common/gettingStartedContent": {
+      "gettingStarted.pullRequests.title": "Pull requests at your pawtips",
+      "gettingStarted.settingsSync.description": "Never lose the perfect VS Code setup! Settings Sync will backsies up and share settings, keybindings & extensions across several VS Code instances.",
+      "gettingStarted.videoTutorial.title": "Lean backsies and learn"
+    },
+    "vs/workbench/services/userDataSync/browser/userDataSyncWorkbenchService": {
+      "yes": "&&Yas!",
+      "no": "&&Nuu"
+    },
+    "vs/workbench/services/workspaces/electron-sandbox/workspaceEditingService": {
+      "ok": "OKI"
+    },
+    "vs/workbench/browser/parts/editor/editor.contribution": {
+      "miBack": "&&Backsies"
+    },
+    "vs/workbench/browser/parts/editor/editorActions": {
+      "navigatePrevious": "Go Backsies"
+    },
+    "vs/workbench/contrib/tasks/browser/taskQuickPick": {
+      "TaskQuickPick.goBack": "Go backsies ↩",
+      "TaskQuickPick.noTasksForType": "No {0} tasks found. Go backsies ↩"
+    },
+    "vs/workbench/contrib/welcome/gettingStarted/browser/gettingStarted.contribution": {
+      "gettingStarted.goBack": "Go Backsies"
+    },
+    "vs/workbench/services/history/browser/history": {
+      "canNavigateBack": "Whether it is possible to navigate backsies in editor history"
+    },
+    "vs/editor/common/config/commonEditorConfig": {
+      "stablePeek": "Keep nuzzle editors open even when double clicking their content or when hitting `Escape`."
+    },
+    "vs/editor/browser/core/keybindingCancellation": {
+      "cancellableOperation": "Whether the editor runs a cancellable operation, e.g. like 'Nuzzle References'"
+    },
+    "vs/editor/contrib/gotoSymbol/goToCommands": {
+      "peek.submenu": "Nuzzle",
+      "actions.previewDecl.label": "Nuzzle Definition",
+      "actions.peekDecl.label": "Nuzzle Declaration",
+      "actions.peekTypeDefinition.label": "Nuzzle Type Definition",
+      "actions.peekImplementation.label": "Nuzzle Implementations",
+      "references.action.label": "Nuzzle References"
+    },
+    "vs/editor/contrib/peekView/peekView": {
+      "peekViewTitleBackground": "Background colour of the nuzzle view title area.",
+      "peekViewTitleForeground": "Colour of the nuzzle view title.",
+      "peekViewTitleInfoForeground": "Colour of the nuzzle view title info.",
+      "peekViewBorder": "Colour of the nuzzle view borders and arrow.",
+      "peekViewResultsBackground": "Background colour of the nuzzle view result list.",
+      "peekViewResultsMatchForeground": "Foreground colour for line nodes in the nuzzle view result list.",
+      "peekViewResultsFileForeground": "Foreground colour for file nodes in the nuzzle view result list.",
+      "peekViewResultsSelectionBackground": "Background colour of the selected entry in the nuzzle view result list.",
+      "peekViewResultsSelectionForeground": "Foreground colour of the selected entry in the nuzzle view result list.",
+      "peekViewEditorBackground": "Background colour of the nuzzle view editor.",
+      "peekViewEditorGutterBackground": "Background colour of the gutter in the nuzzle view editor.",
+      "peekViewResultsMatchHighlight": "Match highlight colour in the nuzzle view result list.",
+      "peekViewEditorMatchHighlight": "Match highlight colour in the nuzzle view editor.",
+      "peekViewEditorMatchHighlightBorder": "Match highlight border in the nuzzle view editor."
+    },
+    "vs/workbench/contrib/callHierarchy/browser/callHierarchy.contribution": {
+      "callHierarchyVisible": "Whether call hierarchy nuzzle is currently showing",
+      "title": "Nuzzle Call Hierarchy"
+    },
+    "vs/workbench/contrib/testing/browser/testingDecorations": {
+      "failedPeekAction": "Nuzzle Error"
+    },
+    "vs/workbench/contrib/testing/common/configuration": {
+      "testing.automaticallyOpenPeekView": "Configures when the error nuzzle view is automatically opened.",
+      "testing.automaticallyOpenPeekViewDuringAutoRun": "Controls whether to automatically open the nuzzle view during auto-run mode."
+    },
+    "vs/workbench/contrib/testing/browser/theme": {
+      "testing.peekBorder": "Colour of the nuzzle view borders and arrow."
+    }
+  }
+}

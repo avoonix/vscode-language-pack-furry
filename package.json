@@ -1,0 +1,52 @@
+{
+  "name": "vscode-language-pack-furry",
+  "displayName": "Furry Language Pack",
+  "description": "Language pack extension for the \"Furry\" language",
+  "publisher": "Avoonix",
+  "icon": "res/icon.png",
+  "license": "GPL-3.0-or-later",
+  "galleryBanner": {
+    "color": "#ffdfc4",
+    "theme": "light"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.53.0"
+  },
+  "categories": [
+    "Language Packs"
+  ],
+  "keywords": [
+    "furry"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avoonix/vscode-language-pack-furry"
+  },
+  "contributes": {
+    "localizations": [
+      {
+        "languageId": "furry",
+        "languageName": "Furry",
+        "localizedLanguageName": "Fuwwy",
+        "translations": [
+          {
+            "id": "vscode",
+            "path": "./translations/furry.i18n.json"
+          }
+        ]
+      },
+      {
+        "languageId": "furry-owo",
+        "languageName": "Furry (OwOified)",
+        "localizedLanguageName": "UwU",
+        "translations": [
+          {
+            "id": "vscode",
+            "path": "./translations/furry.owo.i18n.json"
+          }
+        ]
+      }
+    ]
+  }
+}
