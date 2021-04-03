@@ -24,6 +24,12 @@ This is the default language pack, for comparison.
 
 ![en (original)](./res/languages/en.png)
 
+## Usage
+
+1. <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>p</kbd>
+2. search for `Configure Display Language`
+3. select `furry`
+
 ## Progress
 
 So far, only the core editor has been translated. Some plugins may be translated in the future.
